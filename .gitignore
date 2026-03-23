@@ -1,0 +1,17 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+*.log
+.DS_Store
+Thumbs.db
+.nyc_output/
+coverage/
+dist/
+build/
+*.tmp
+*.bak
+.wincmd_history
+demo_output/

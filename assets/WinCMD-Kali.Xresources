@@ -1,0 +1,38 @@
+! WinCMD-Kali xterm Resources - Windows CMD Exact Appearance
+! ============================================================
+
+WinCMD.background:        #000000
+WinCMD.foreground:        #C0C0C0
+WinCMD.cursorColor:       #C0C0C0
+
+! Windows CMD 16-color CGA palette
+WinCMD.color0:   #000000
+WinCMD.color1:   #800000
+WinCMD.color2:   #008000
+WinCMD.color3:   #808000
+WinCMD.color4:   #000080
+WinCMD.color5:   #800080
+WinCMD.color6:   #008080
+WinCMD.color7:   #C0C0C0
+WinCMD.color8:   #808080
+WinCMD.color9:   #FF0000
+WinCMD.color10:  #00FF00
+WinCMD.color11:  #FFFF00
+WinCMD.color12:  #0000FF
+WinCMD.color13:  #FF00FF
+WinCMD.color14:  #00FFFF
+WinCMD.color15:  #FFFFFF
+
+WinCMD.faceName:         Consolas,Monospace,DejaVu Sans Mono,Lucida Console
+WinCMD.faceSize:         11
+WinCMD.geometry:         80x25
+WinCMD.scrollBar:        true
+WinCMD.rightScrollBar:   true
+WinCMD.saveLines:        3000
+WinCMD.cursorBlink:      true
+WinCMD.selectBackground: #000080
+WinCMD.selectForeground: #FFFFFF
+WinCMD.title:            C:\Windows\System32\cmd.exe
+WinCMD.borderWidth:      1
+WinCMD.internalBorder:   2
+WinCMD.allowBoldFonts:   true

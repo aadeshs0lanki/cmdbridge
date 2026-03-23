@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WinCMD-Kali (GUI)
+GenericName=Windows CMD Emulator - GUI Mode
+Comment=Windows CMD Emulator with authentic Windows-style GUI running on Kali Linux
+Exec=bash -c "node /opt/wincmd-kali/bin/wincmd-gui.js"
+Icon=/opt/wincmd-kali/assets/wincmd-kali.png
+Terminal=false
+StartupNotify=true
+Categories=System;TerminalEmulator;Security;
+Keywords=cmd;windows;terminal;command prompt;emulator;kali;gui;

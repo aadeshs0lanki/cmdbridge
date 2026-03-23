@@ -1,0 +1,39 @@
+{
+  "name": "wincmd-kali",
+  "version": "1.0.0",
+  "description": "Windows CMD emulator running natively on Kali Linux / any Linux system",
+  "main": "src/index.js",
+  "bin": {
+    "wincmd": "./bin/wincmd.js"
+  },
+  "scripts": {
+    "start": "node bin/wincmd.js",
+    "test": "node --test tests/",
+    "test:verbose": "node --test --test-reporter=spec tests/",
+    "lint": "echo 'No linter configured yet'",
+    "gui": "node bin/wincmd-gui.js",
+    "install-system": "sudo bash install.sh"
+  },
+  "keywords": [
+    "windows",
+    "cmd",
+    "emulator",
+    "kali",
+    "linux",
+    "terminal",
+    "shell",
+    "pentesting",
+    "security"
+  ],
+  "author": "WinCMD-Kali Project",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/wincmd-kali"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

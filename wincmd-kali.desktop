@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WinCMD-Kali
+GenericName=Windows CMD Emulator
+Comment=Windows Command Prompt Emulator running on Kali Linux
+Exec=bash -c "node /opt/wincmd-kali/bin/wincmd.js"
+Icon=/opt/wincmd-kali/assets/wincmd-kali.png
+Terminal=true
+StartupNotify=false
+Categories=System;TerminalEmulator;Security;
+Keywords=cmd;windows;terminal;command prompt;emulator;kali;
+MimeType=application/x-bat;text/x-batch;
