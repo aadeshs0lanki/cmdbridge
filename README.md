@@ -1,4 +1,4 @@
-# WinCMD-Kali 🪟➡️🐉
+# cmdbridge 🪟➡️🐉
 
 > **Windows CMD Emulator running natively on Kali Linux**  
 > Type Windows commands. Get Linux results.
@@ -12,7 +12,7 @@
 
 ## What Is This?
 
-**WinCMD-Kali** is a production-grade Windows CMD emulator that runs on **Kali Linux** (and any Linux/macOS system).  
+**cmdbridge** is a production-grade Windows CMD emulator that runs on **Kali Linux** (and any Linux/macOS system).  
 You type real Windows CMD commands — it executes them natively on Linux.
 
 **No Wine. No Windows. No VM.** Pure Node.js.
@@ -91,8 +91,8 @@ OS Version:                10.0.19045 N/A Build 19045
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/wincmd-kali.git
-cd wincmd-kali
+git clone https://github.com/YOUR_USERNAME/cmdbridge.git
+cd cmdbridge
 
 # No npm install needed — zero dependencies!
 
@@ -125,7 +125,7 @@ node bin/wincmd.js
 Microsoft Windows [Version 10.0.19045.3996]
 (c) Microsoft Corporation. All rights reserved.
 
-WinCMD-Kali v1.0.0 — Windows CMD Emulator running on Kali Linux
+cmdbridge v1.0.0 — Windows CMD Emulator running on Kali Linux
 Type 'help' to list all available commands.
 
 C:\Users\kali> _
@@ -150,7 +150,7 @@ node bin/wincmd.js examples/demo.bat
 ### Run Command Then Stay in Shell
 
 ```bash
-node bin/wincmd.js /K "echo Welcome to WinCMD-Kali"
+node bin/wincmd.js /K "echo Welcome to cmdbridge"
 ```
 
 ### Skip Banner
@@ -232,7 +232,7 @@ node bin/wincmd.js --no-banner
 
 ## Batch File Support
 
-WinCMD-Kali runs `.bat` and `.cmd` files with full support for:
+cmdbridge runs `.bat` and `.cmd` files with full support for:
 
 ```batch
 @echo off
@@ -267,7 +267,7 @@ TYPE output.txt | FIND "Hello"
 
 ## Path Conversion
 
-WinCMD-Kali automatically converts paths between Windows and Linux formats:
+cmdbridge automatically converts paths between Windows and Linux formats:
 
 | Linux Path | Windows Path |
 |---|---|
@@ -306,7 +306,7 @@ Tests cover: path conversion, all built-in commands, environment variable expans
 ## Architecture
 
 ```
-wincmd-kali/
+cmdbridge/
 ├── bin/
 │   └── wincmd.js          # CLI entry point (/C, /K, script.bat, REPL)
 ├── src/
@@ -338,7 +338,7 @@ const env    = new CMDEnvironment();
 const interp = new CMDInterpreter(env);
 
 // Run a command
-interp.execute('echo Hello from WinCMD-Kali!');
+interp.execute('echo Hello from cmdbridge!');
 
 // Run a batch file
 interp.runBatch('/path/to/script.bat');
@@ -372,7 +372,7 @@ console.log(env.expand('Value: %MY_VAR%'));
 
 ## Known Differences from Real CMD
 
-| Feature | Real CMD | WinCMD-Kali |
+| Feature | Real CMD | cmdbridge |
 |---|---|---|
 | Registry (`reg query`) | ✅ | ❌ Not applicable |
 | `net use` (network drives) | ✅ | ❌ Not applicable |
@@ -386,7 +386,7 @@ console.log(env.expand('Value: %MY_VAR%'));
 
 ## License
 
-MIT © WinCMD-Kali Project
+MIT © cmdbridge Project
 
 ---
 
